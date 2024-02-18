@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+
+.mybackground {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.myform {
+  box-sizing: border-box;
+  max-width: 500px;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+.RegistrationForm {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 3px dashed red;
+}
+
+.label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+}
+.input {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.select {
+  width: 212px;
+  height: 33px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 5px;
+}
+
+.message {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 5px;
+}
+.messagearea {
+  margin: 5px;
+  border-radius: 5px;
+  height: 100px;
+  width: 450px;
+}
+
+.input:focus,
+.messagearea:focus,
+.select:focus,
+.checkbox-custom:focus,
+.button:focus {
+  box-shadow: 2px 2px 2px rgb(212, 20, 20);
+}
+
+.input:hover,
+.messagearea:hover,
+.select:hover {
+  background-color: rgb(222, 209, 209);
+}
+.checkbox-custom:hover {
+  background-color: rgb(139, 230, 200);
+}
+.button {
+  border-radius: 5px;
+  height: 33px;
+  background-color: rgb(153, 153, 231);
+}
+
+.button:hover {
+  background-color: aqua;
+}
